@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* --Imagem Fundo */
+
+#fundo1{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    height: 735px;
+    
+}
+
+/* --Estilo Menu */
+
+header{
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 40px 4%;
+    color: #fcfcfc;
+    font-size: 20px;
+    margin-right: 40px;
+    
+
+    
+}
+
+.container{
+ 
+    max-width: 1280px;
+    margin: 0 auto;
+   
+
+}
+
+header > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+ul li a {
+    color: #fefcfc;
+    text-decoration-line: none;
+    cursor: pointer; 
+}
+
+a{
+    color: #fefcfc;
+    text-decoration-line: none ;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s all;
+}
+
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative; /* Garante que o conteúdo do dropdown seja posicionado em relação ao pai */
+	
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+	transform: translateX(-0,5%); /* Centraliza o dropdown horizontalmente */
+    background-color: red;
+    max-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding-left:10px;
+
+
+
+}
+
+.dropdown-content li {
+    width: 100%;
+
+    
+
+}
+
+
+
+
+.dropdown-content a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+	padding: 12px 0; /* Ajuste do padding para centralizar o conteúdo verticalmente */
+	text-align: center; /* Centraliza o texto horizontalmente */
+	padding-right: 70px;
+    letter-spacing: 0px;
+    margin-top:0 px;
+    align-items:center;
+    
+  
+	
+}
+
+.dropdown-content a:hover {
+    
+    color: #D4A45B;
+	padding-right: 100px;
+	
+}
+
+/* Show dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* --Estilo Hero */
+
+
+#fundo1{
+    width: 100%;
+	height: 100vh;
+}
+
+
+
+#titulo-hero{
+    line-height: 65px;
+    color: #fcfcfc;
+    margin-right: 60px;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 70px;
+   
+    
+}
+
+h1 .cor{
+    color: #f45a5a;
+}
+
+#subtitulo{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+
+main{
+    text-align: center;
+    margin-top: 170px;
+
+}
+
+/* Estilo O que Fazemos*/
+
+
+
+section.sobre{
+    
+    padding: 40px 8%;
+    background-color: #ffffff;
+    
+   
+}
+
+.img{
+    width: 350px;
+}
+
+section.sobre .flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+
+}
+
+
+
+.sobre .txt-sobre h2{
+    font-family: Montserrat;
+    font-size: 40px;
+}
+
+.sobre .txt-sobre p{
+    font-family: Montserrat;
+    margin-top: 15px;
+    text-align: justify;
+    font-weight: 420;
+    font-size: 17px;
+}
+
+.sobre .img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+
+/* -- Estilo Pets*/
+
+
+
+.swiper h2{
+
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+
+
+}
+
+.swiper{
+    width: 0 auto;
+    font-family: Montserrat;
+
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: #ffeef3;
+    padding: 40px 8%;
+    
+}
+
+
+
+.swiper-wrapper{
+    
+    width: 100%;
+    height: 35em;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+    
+    
+    
+}
+
+.card{
+    width: 300px; 
+    max-width: 100%; 
+    height: 90%; 
+   
+    
+    border-radius: 50px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    padding: 2em 1em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.gatos{
+    background-color: #FBECB7;
+}
+
+.roedores{
+    background-color: #B6E6FC;
+}
+
+.caes{
+    background-color: #FFCDC2;
+}
+
+
+
+.card_image{
+    width: 9em;
+    height: 11em;
+    padding: 3px;
+    margin-bottom: 2em;
+    
+}
+
+
+
+.card_image img{
+    width: 100%;
+    overflow: hidden;
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da tela */
+    height: 100%;
+}
+
+
+.card_content{
+    
+text-align: center;
+}
+
+.card_title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Mochiy Pop P One;
+    position: relative;
+    top: .2em;
+}
+
+
+.titulo-gatos{
+    color: #D4A45B;
+}
+
+.titulo-caes{
+    color: #E27F69;
+}
+
+
+.titulo-roed{
+    color: #388B9D;
+
+}
+
+.card_text{
+    text-align: center;
+    font-size: 17px;
+    margin: 1em 1em;
+    font-style: italic;
+}
+
+.card_btn{
+    background-color:#D4A45B ;
+    color: #000000;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+
+}
+
+
+.gatos-btn{
+
+    background-color:#D4A45B ;
+    color: #000000;
+
+}
+
+.caes-btn{
+
+    background-color:#E27F69 ;
+    color: #000000;
+
+}
+
+.roed-btn{
+
+    background-color:#388B9D ;
+    color: #000000;
+
+}
+
+.gatos-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color:#D4A45B;
+    transition: 0.3s all;
+}
+
+
+.caes-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color:#E27F69;
+    transition: 0.3s all;
+
+}
+
+.roed-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color:#388B9D;
+    transition: 0.3s all;
+}
+
+
+/* CARDS NOTICIAS */
+
+
+.noticias h2{
+
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+
+
+}
+
+section.noticias{
+    
+    padding: 40px 8%;
+    background-color: #ffffff;
+    
+   
+}
+
+.card-noticia a{
+    color: #000000;
+}
+
+.card-noticia a:hover{
+    color: #ffffff;
+}
+
+
+
+
+.card-noticia{
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align:left;
+
+    display: flex;
+    flex-direction: column;
+    
+    background: #f97db7;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    min-height: 300px;
+    max-height: 400px;
+    margin-left: 40px;
+    
+}
+
+
+.card-noticia h3{
+    max-width: 210px;
+}
+
+
+
+
+
+
+.card-noticia:first-child{
+    margin-left: 0;
+
+}
+
+
+.noticias-div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+
+.cards-noticia{ /*main.cards*/
+
+    
+    padding: 32px;
+
+}
+
+
+
+.icon{
+    width: 250px;
+}
+
+.card-noticia img{
+width: 100%;
+   
+}
+
+
+
+
+
+/* Footer  */
+
+footer{
+    height:524px;
+    background-color: #000000;
+    font-family: "Outfit", sans-serif;
+	margin-top: 100px;
+	width:100vw;
+}
+
+.informacoes{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 0 100px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    color:white; 
+    margin-top: 60px; 
+    margin-left: 60px;    
+}
+
+#if-1 {
+    margin-left: 0; 
+}
+
+
+#if-3 {
+    margin-right: 10px;
+}
+
+footer h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.infos p{
+    padding: 20px;
+    font-weight: normal;
+    margin-left: 0;
+	font-size:23px;
+}
+
+footer a:hover {
+    color: white;  /* Cor quando o mouse está sobre o link */
+  }
+
+.linha-fina{
+    border-top: 1px solid white;
+    margin-top: 35px; 
+    margin-left:40px; 
+    margin-right:40px; 
+}
+
+.rights{
+    color:white; 
+    margin-top:40px;
+    margin-left:60px;   
+}
