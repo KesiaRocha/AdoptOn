@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos</title>
+
+    <link rel="stylesheet" href="/MenuPageGatos/styles/style.css"> 
+
+	<script src="/MenuPageGatos/script/script.js" defer></script> 
+
+	<link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> 
+
+    <link rel="stylesheet" href="/Carregamento/styles-carregamento/carregamento.css"> <!--CSS CARREGAMENTO-->
+
+</head>
+<body>
+
+     <!--Preloader-->
+
+     <div class="preload" data-preaload>
+        <div class="circle">
+
+        </div>
+
+        <p class="text">AdoptiOn</p>
+    </div>
+
+    
+    <!--MENU-->
+   
+
+    <section id="fundo1" class="interface" style="background-image: url('/MenuPageGatos/images/gato-fundo.png');"> 
+        <header>
+            <div class="container">
+            <div id="logo">
+                <img src="/MenuPageGatos/images/logo-adoption.png">
+            </div>
+    
+            <ul>
+                <a href="/AdoptiOn1.0/html/index.html">
+                    <li>Home</li>
+                </a>
+
+
+
+				<li class="dropdown">
+                    <a href="#nossos-pets" class="scroll-link" class="elemento-header">Pets</a>
+                    <ul class="dropdown-content">
+                        <li><a href="/MenuPageRoedores/index/index.html">Roedores</a></li>
+                        <li><a href="/MenuPageCachorros/index/index.html">Cachorros</a></li>
+                        <li><a href="/MenuPageGatos/index/index.html">Gatos</a></li>
+                    </ul>
+                </li>
+
+
+
+
+                
+                <a href="/Sobrenos/sobrenos.html">
+                    <li>Sobre Nós</li>
+                </a>
+            </ul>
+        </div>
+        </header>
+
+     <!-- FUNDO/HERO --> 
+        <main>
+    
+            <div id="titulo-hero">
+            <h1>Gat<span class="cor">os</span></h1>
+            <h2 id="subtitulo">O ronronar é música para a alma</h2>
+            </div>
+        </section> <!-- Fecha Fundo -->
+
+
+
+
+
+
+
+
+
+
+ <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-left">
+                    <div class="cat-info">
+                        <img id="cat-image" src="" alt="Imagem do gato">
+                        <p id="cat-description">Descrição do gato</p>
+                        <p id="cat-history">História do gato</p>
+                    </div>
+                </div>
+                
+                <div class="modal-right">
+                    <div class="modal-header">
+                        <p id="cat-name"></p> <!-- Nome do gato será inserido dinamicamente -->
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="skills">
+                        <div class="skill">
+                            <label for="carinho">Carinho:</label>
+                            <progress id="carinho" value="80" max="100"></progress>
+                        </div>
+                        <div class="skill">
+                            <label for="energia">Energia:</label>
+                            <progress id="energia" value="90" max="100"></progress>
+                        </div>
+                        <div class="skill">
+                            <label for="sociabilidade">Sociabilidade:</label>
+                            <progress id="sociabilidade" value="70" max="100"></progress>
+                        </div>
+                    </div>
+                    <!-- Seção "Sobre Mim" -->
+                    <div class="sobre-mim">
+                        <div id="sobre-mim">
+                            <p>SOBRE<br> MIM!</p>
+                        </div>
+                        <div class="news">
+                        <table>
+                            <tr>
+                                <td id="header-news">Sexo:</td>
+                                <td id="cat-gender"></td>
+                            </tr>
+                            <tr>
+                                <td id="header-news">Contato:</td>
+                                <td id="cat-contact"></td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td id="header-news">Idade:</td>
+                                <td id="cat-age"></td>
+                            </tr>
+                            <tr>
+                                <td id="header-news">Local:</td>
+                                <td id="cat-location"></td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<section class="fundo-site">
+        <!-- Carrossel --> 
+
+        <h2 class="titulos">CATÁLOGO</h2>
+
+        <section class="carroselCentro"> 
+
+        <div class="wrapper" > 
+            <i id="left" class="fa-solid fas fa-angle-left"></i> 
+            <ul class="carousel"> 
+                <li class="card"> 
+                    <div class="img"><img src= 
+    "/MenuPageGatos/images/billy.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome"> 
+                        Billy
+                    </h2> 
+                </li> 
+                <li class="card"> 
+                    <div class="img"><img src= 
+                        "/MenuPageGatos/images/chico.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">
+                        Chico</h2> 
+                </li> 
+                <li class="card"> 
+                    <div class="img"><img src= 
+    "/MenuPageGatos/images/frajola.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2  class="nome" >Frajola</h2> 
+    
+                </li> 
+                <li class="card"> 
+                    <div class="img"><img src= 
+                        "/MenuPageGatos/images/kami.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">Kami</h2> 
+    
+                </li> 
+                <li class="card"> 
+                    <div class="img"><img src= 
+    "/MenuPageGatos/images/kennedy.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">Kennedy</h2> 
+    
+                </li> 
+                <li class="card"> 
+                    <div class="img"><img src= 
+                        "/MenuPageGatos/images/luna.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">Luna</h2> 
+    
+                </li> 
+            </ul> 
+            <i id="right" class="fa-solid fas fa-angle-right"></i> 
+        </div> 
+    </section>
+
+
+
+        <!-- Carrossel --> 
+         
+
+
+
+         <!-- Anuncio --> 
+
+        <div class="ad">
+            <a href="https://www.petlove.com.br/cama-gatton-catbed-pelucia-candy-para-gatos/p" target="_blank">
+                <img src="/MenuPageGatos/images/adcats.png" alt="Anúncio de roedores" draggable="false">
+            </a>
+        </div>
+
+        <!-- Anuncio --> 
+
+    <!-- Carrossel 2 -->
+
+        <h2 class="titulos">EM RISCO:</h2>
+
+
+        <div class="wrapper2"> 
+            <i id="left2" class="fa-solid fas fa-angle-left"></i> 
+            <ul class="carousel2"> 
+                <li class="card2"> 
+                    <div class="img2"><img src= 
+    "/MenuPageGatos/images/Miel.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome"> 
+                        Miel 
+                    </h2> 
+                </li> 
+                <li class="card2"> 
+                    <div class="img2"><img src= 
+                        "/MenuPageGatos/images/mimi.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">
+                        Mimi</h2> 
+                </li> 
+                <li class="card2"> 
+                    <div class="img2"><img src= 
+    "/MenuPageGatos/images/quixote.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">Quixote</h2> 
+    
+                </li> 
+                <li class="card2"> 
+                    <div class="img2"><img src= 
+                        "/MenuPageGatos/images/ferrugem.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">Ferrugem</h2> 
+    
+                </li> 
+                <li class="card2"> 
+                    <div class="img2"><img src= 
+    "/MenuPageGatos/images/suzy.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">Suzy</h2> 
+    
+                </li> 
+                <li class="card2"> 
+                    <div class="img2"><img src= 
+                        "/MenuPageGatos/images/lasanha.png"
+                                        alt="" draggable="false"> </div> 
+                    <h2 class="nome">Lasanha</h2> 
+    
+                </li> 
+            </ul> 
+            <i id="right2" class="fa-solid fas fa-angle-right"></i> 
+        </div> 
+        <!-- Carrossel 2 -->
+
+        <!-- footer-->
+
+        <footer>
+            <div class="informacoes">
+                <div class="infos" id="if-1">
+                    <h3>Siga-nos</h3>
+                    <p>Insta: @adopton</p>
+                    <p>Twitter: @adopton</p>
+                    <p>Facebook: @adopton</p>
+                </div>
+                <div class="infos" id="if-2">
+                    <h3>Suporte</h3>
+                    <p><a href="@instagram/adopton">Sobre nós</a></p>
+                    <p><a href="#">Nos contacte</a></p>
+                </div>
+                <div class="infos" id="if-3">
+                    <h3>Infos</h3>
+                    <p><a href="#">Termos e Condições</a></p>
+                    <p><a href="#">Política de privacidade</a></p>
+                </div>
+            </div>
+            <div class="linha-fina"></div>
+            <div class="rights">@2024, All rights reserved</div>
+        </footer> 
+        <script src="/Carregamento/scripts-carregamento/carregamento.js" ></script> <!--JS DO CARREGAMENTO-->
+    
+    
+</body>
+</html>
