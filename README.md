@@ -1,8 +1,8 @@
 # 🐶AdoptiOn
 
 
-![image](https://github.com/user-attachments/assets/0dcae1ed-7bda-49c8-be22-821db04a9dbc)
 
+![image](https://github.com/user-attachments/assets/0854f43d-aac7-49f4-9806-684366b033e6)
 
 
 
